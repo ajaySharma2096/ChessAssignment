@@ -1,0 +1,33 @@
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 75px);
+  grid-template-rows: repeat(8, 75px);
+  background-color: white;
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+}
+
+.tile {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.green-circle {
+  font-size: 75px;
+  color: green;
+}
+
+.cross-icon {
+  font-size: 75px;
+  color: red;
+}
+
+.black-tile {
+  background-color: black;
+}
+
+.white-tile {
+  background-color: white;
+}
